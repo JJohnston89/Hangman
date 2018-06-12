@@ -59,7 +59,7 @@ public class HangMan {
 			
 			if(currentWord.equals(tempWord)){     //You win else keep guessing
 				System.out.println("The word is " + currentWord + ". You missed " + missedCount + " times");
-				System.out.print("Do you want to guess an other word? Enter y or n > ");
+				System.out.print("Do you want to guess another word? Enter y or n > ");
 				missedCount = 0;				
 				inPlay = true;
 				
